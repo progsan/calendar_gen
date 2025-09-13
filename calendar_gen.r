@@ -1,6 +1,6 @@
 # Печать календаря на определенный месяц с подсветкой дат по значениям векторов
 # @author: prog_san @date: 13.09.2025
-github
+
 library(calendR)
 
 year <- 2025
@@ -18,4 +18,5 @@ calendR(year = year,
         start = "M",  
         special.days = fills,
         special.col = 3:4,
+
         legend.pos = "bottom")
